@@ -6,6 +6,7 @@
 ######################################
 *.sublime-project
 *.sublime-workspace
+*.codekit
 
 # OS generated files #
 ######################
