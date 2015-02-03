@@ -1,0 +1,28 @@
+{
+  "name": "share-buttons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sunnysingh/share-buttons",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sunnysingh/share-buttons.git"
+  }
+  "authors": [
+    "Sunny Singh <sunny@sunnyis.me>"
+  ],
+  "description": "Lightweight share buttons for the web.",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "jquery",
+    "share"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
