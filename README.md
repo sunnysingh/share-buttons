@@ -55,28 +55,17 @@ The least amount of markup required for a button:
 
 As you can see, it's simply an anchor tag with the `href` attribute linking to the share URL of the service.
 
-The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon. Replace `{SHARE_SERVICE}` with one of the following:
+The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon and `{SHARE_URL}` is the sharing URL for the service.
+You can find the list of services along with their share URLs below:
 
-* Twitter
-* Facebook
-* Google+
-* Reddit
-* Tumblr
-* LinkedIn
-* Pinterest
-* StumbleUpon
-* Delicious
-
-The `{SHARE_URL}` is the sharing URL for the service. The list of URLs and their separate documentation are found below:
-
-* Twitter: `https://twitter.com/share?text=Share Buttons Demo&url=`
-* Facebook: `https://www.facebook.com/sharer/sharer.php?u=`
-* Google+: `https://plus.google.com/share?url=`
-* Reddit: `http://www.reddit.com/submit?url=`
-* Tumblr: `http://www.tumblr.com/share/link?url=`
-* LinkedIn: `https://www.linkedin.com/shareArticle?mini=true&url=`
-* Pinterest: `https://www.pinterest.com/pin/create/button/?url=`
-* Delicious: `https://delicious.com/save?v=5&noui&jump=close&url=`
+* Twitter (share-btn-twitter): `https://twitter.com/share?text=Share Buttons Demo&url=`
+* Facebook (share-btn-facebook): `https://www.facebook.com/sharer/sharer.php?u=`
+* Google+ (share-btn-googleplus): `https://plus.google.com/share?url=`
+* Reddit (share-btn-reddit): `http://www.reddit.com/submit?url=`
+* Tumblr (share-btn-tumblr): `http://www.tumblr.com/share/link?url=`
+* LinkedIn (share-btn-linkedin): `https://www.linkedin.com/shareArticle?mini=true&url=`
+* Pinterest (share-btn-pinterest): `https://www.pinterest.com/pin/create/button/?url=`
+* Delicious (share-btn-delicious): `https://delicious.com/save?v=5&noui&jump=close&url=`
 
 Your page's URL typically goes after the `?url=` part, and must be encoded.
 
