@@ -24,7 +24,7 @@ bower install share-buttons
 
 Include `share-buttons.css` file in the `build` folder (or @import if using Less):
 
-```
+```html
 <!-- Inlude in <head> tag -->
 <link rel="stylesheet" href="build/css/share-buttons.css" />
 ```
@@ -35,7 +35,7 @@ The `share-buttons.css` file includes social icons, which come from the `fonts` 
 
 If you want the sharing URL to open in a popup window/dialog, you can include the `share-buttons.js` file. This is pure JavaScript that does not rely on any framework, but may not work in older browsers. You can include the `share-buttons.jquery.js` file if you're using jQuery.
 
-```
+```html
 <!-- Include before </body> closing tag -->
 <script src="build/js/share-buttons.js"></script>
 ```
@@ -44,7 +44,7 @@ If you want the sharing URL to open in a popup window/dialog, you can include th
 
 The least amount of markup required for a button:
 
-```
+```html
 <a class="share-btn share-btn-{SHARE_SERVICE}"
    href="{SHARE_URL}"
    title="Share">
@@ -56,6 +56,7 @@ The least amount of markup required for a button:
 As you can see, it's simply an anchor tag with the `href` attribute linking to the share URL of the service.
 
 The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon. Replace `{SHARE_SERVICE}` with one of the following:
+
 * Twitter
 * Facebook
 * Google+
@@ -67,6 +68,7 @@ The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon. Replace 
 * Delicious
 
 The `{SHARE_URL}` is the sharing URL for the service. The list of URLs and their separate documentation are found below:
+
 Twitter: `https://twitter.com/share?text=Share Buttons Demo&url=`
 Facebook: `https://www.facebook.com/sharer/sharer.php?u=`
 Google+: `https://plus.google.com/share?url=`
@@ -81,12 +83,13 @@ Your page's URL typically goes after the `?url=` part, and must be encoded.
 #### Button classes
 
 You can change the way the buttons look with classes. Just add one or more of the following classes to the `a` tag:
+
 *`share-btn-sm` or `share-btn-lg` for different sizes.
 *`share-btn-branded` for a colorized button.
 *`share-btn-inverse` for a dark-scheme.
 
 If you want to make a button that only shows the icon (no text), make sure to use the following markup for the text span:
-```
+```html
 <span class="share-btn-text-sr">Share</span>
 ```
 
