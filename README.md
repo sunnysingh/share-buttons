@@ -18,6 +18,8 @@ Available through [Bower](http://bower.io/):
 bower install share-buttons
 ```
 
+You can also [download all the files](https://github.com/sunnysingh/share-buttons/archive/master.zip).
+
 ## Documentation
 
 ### CSS
@@ -83,6 +85,10 @@ If you want to make a button that only shows the icon (no text), make sure to us
 ```
 
 This way, the buttons stay accessible to screen reader users.
+
+## Changelog
+
+v1.0.0: Feb 17, 2015 - First version release!
 
 ## Issues
 
