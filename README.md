@@ -69,14 +69,14 @@ The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon. Replace 
 
 The `{SHARE_URL}` is the sharing URL for the service. The list of URLs and their separate documentation are found below:
 
-Twitter: `https://twitter.com/share?text=Share Buttons Demo&url=`
-Facebook: `https://www.facebook.com/sharer/sharer.php?u=`
-Google+: `https://plus.google.com/share?url=`
-Reddit: `http://www.reddit.com/submit?url=`
-Tumblr: `http://www.tumblr.com/share/link?url=`
-LinkedIn: `https://www.linkedin.com/shareArticle?mini=true&url=`
-Pinterest: `https://www.pinterest.com/pin/create/button/?url=`
-Delicious: `https://delicious.com/save?v=5&noui&jump=close&url=`
+* Twitter: `https://twitter.com/share?text=Share Buttons Demo&url=`
+* Facebook: `https://www.facebook.com/sharer/sharer.php?u=`
+* Google+: `https://plus.google.com/share?url=`
+* Reddit: `http://www.reddit.com/submit?url=`
+* Tumblr: `http://www.tumblr.com/share/link?url=`
+* LinkedIn: `https://www.linkedin.com/shareArticle?mini=true&url=`
+* Pinterest: `https://www.pinterest.com/pin/create/button/?url=`
+* Delicious: `https://delicious.com/save?v=5&noui&jump=close&url=`
 
 Your page's URL typically goes after the `?url=` part, and must be encoded.
 
@@ -84,9 +84,9 @@ Your page's URL typically goes after the `?url=` part, and must be encoded.
 
 You can change the way the buttons look with classes. Just add one or more of the following classes to the `a` tag:
 
-*`share-btn-sm` or `share-btn-lg` for different sizes.
-*`share-btn-branded` for a colorized button.
-*`share-btn-inverse` for a dark-scheme.
+* `share-btn-sm` or `share-btn-lg` for different sizes.
+* `share-btn-branded` for a colorized button.
+* `share-btn-inverse` for a dark-scheme.
 
 If you want to make a button that only shows the icon (no text), make sure to use the following markup for the text span:
 ```html
