@@ -55,10 +55,10 @@ The least amount of markup required for a button:
 
 As you can see, it's simply an anchor tag with the `href` attribute linking to the share URL of the service.
 
-The `.share-btn-{SHARE_SERVICE}` class is used to show the proper icon and `{SHARE_URL}` is the sharing URL for the service.
+The `share-btn-{SHARE_SERVICE}` class is used to show the proper icon and `{SHARE_URL}` is the sharing URL for the service.
 You can find the list of services along with their share URLs below:
 
-* Twitter (share-btn-twitter): `https://twitter.com/share?text=Share Buttons Demo&url=`
+* Twitter (share-btn-twitter): `https://twitter.com/share?url=`
 * Facebook (share-btn-facebook): `https://www.facebook.com/sharer/sharer.php?u=`
 * Google+ (share-btn-googleplus): `https://plus.google.com/share?url=`
 * Reddit (share-btn-reddit): `http://www.reddit.com/submit?url=`
@@ -67,7 +67,7 @@ You can find the list of services along with their share URLs below:
 * Pinterest (share-btn-pinterest): `https://www.pinterest.com/pin/create/button/?url=`
 * Delicious (share-btn-delicious): `https://delicious.com/save?v=5&noui&jump=close&url=`
 
-Your page's URL typically goes after the `?url=` part, and must be encoded.
+Your page's URL typically goes after the `url=` part, and must be encoded. This can be done manually via an [Online URl Encoder](http://devotter.com/uri-encoder).
 
 #### Button classes
 
@@ -83,3 +83,7 @@ If you want to make a button that only shows the icon (no text), make sure to us
 ```
 
 This way, the buttons stay accessible to screen reader users.
+
+## Issues
+
+Feel free to [open an issue](https://github.com/sunnysingh/share-buttons/issues/new) and I'll try to answer ASAP.
