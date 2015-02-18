@@ -45,8 +45,7 @@ If you want the sharing URL to open in a popup window/dialog, you can include th
 The least amount of markup required for a button:
 
 ```html
-<a class="share-btn share-btn-{SHARE_SERVICE}"
-   href="{SHARE_URL}">
+<a class="share-btn share-btn-{SHARE_SERVICE}" href="{SHARE_URL}">
 	<span class="share-btn-icon"></span>
 	<span class="share-btn-text">Share</span>
 </a>
