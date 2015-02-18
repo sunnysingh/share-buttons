@@ -1,10 +1,8 @@
 # Share Buttons
 
-**IN DEVELOPMENT**: I will post news of release on [my Twitter](http://twitter.com/sunnyismoi) and [my blog](http://sunnyis.me/blog/).
+Share Buttons is a project that aims to speed up the web by removing the need for Twitter's, Facebook's, or Google+'s external JavaScript that developers copy-and-paste into their web pages.
 
-Social share buttons provided by Twitter, Facebook, and others allow you to easily add social sharing to your web page with a quick copy-and-paste. However, they add overhead and will increase load time. Chances are, all you want are good-looking buttons that allow your users to share a URL to their feeds. Here's where the Share Buttons project comes in.
-
-Share Buttons allows you to implement simple sharing functionality through HTML, CSS, and JS that you can host on your site. You can view the demo and documentation below.
+The solution is that these social services provide share URLs that you can use to create your own lightweight buttons. Share Buttons provides a consistent and clean look, while only needing a single CSS and JS file.
 
 ## Demo
 
@@ -48,8 +46,7 @@ The least amount of markup required for a button:
 
 ```html
 <a class="share-btn share-btn-{SHARE_SERVICE}"
-   href="{SHARE_URL}"
-   title="Share">
+   href="{SHARE_URL}">
 	<span class="share-btn-icon"></span>
 	<span class="share-btn-text">Share</span>
 </a>
@@ -88,7 +85,7 @@ This way, the buttons stay accessible to screen reader users.
 
 ## Changelog
 
-v1.0.0: Feb 17, 2015 - First version release!
+v1.0.0: Feb 18, 2015 - First version release!
 
 ## Issues
 
