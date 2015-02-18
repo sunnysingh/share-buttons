@@ -65,10 +65,10 @@
   display: inline-block;
   height: 24px;
   margin: 0;
-  padding: 4px 8px;
-  line-height: 1em;
+  padding: 2px 8px;
+  line-height: 18px;
   letter-spacing: .02em;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #111111;
@@ -96,6 +96,7 @@
 .share-btn.share-btn-lg {
   height: 28px;
   font-size: 16px;
+  line-height: 20px;
 }
 .share-btn.share-btn-more .share-btn-text-sr {
   position: absolute;
@@ -248,18 +249,12 @@
   background: #050505;
   border-color: #000000;
 }
-.share-btn .share-btn-icon {
-  font-size: 14px;
+.share-btn.share-btn-more .share-btn-icon {
+  position: relative;
+  top: 1px;
 }
-.share-btn.share-btn-sm .share-btn-icon {
-  font-size: 10px;
-  width: 16px;
-  height: 16px;
-}
-.share-btn.share-btn-lg .share-btn-icon {
-  font-size: 16px;
-  width: 18px;
-  height: 16px;
+.share-btn.share-btn-more.share-btn-lg .share-btn-icon {
+  top: 2px;
 }
 .share-btn .share-btn-text {
   padding-left: 2px;
