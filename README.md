@@ -45,8 +45,11 @@ If you want the sharing URL to open in a popup window/dialog, you can include th
 The least amount of markup required for a button:
 
 ```html
+<!-- Default share button -->
 <a class="share-btn share-btn-{SHARE_SERVICE}" href="{SHARE_URL}">
+	<!-- Share icon -->
 	<span class="share-btn-icon"></span>
+	<!-- Share text -->
 	<span class="share-btn-text">Share</span>
 </a>
 ```
@@ -82,9 +85,21 @@ If you want to make a button that only shows the icon (no text), make sure to us
 
 This way, the buttons stay accessible to screen reader users.
 
+## Browser Support
+
+Tested on all modern browsers, including Internet Explorer 9+. There are a few display issues regarding `line-height` on mobile browsers.
+
 ## Changelog
 
-v1.0.0: Feb 18, 2015 - First version release!
+[v1.0.0](https://github.com/sunnysingh/share-buttons/releases/tag/v1.0.0): Feb 18, 2015 - First version release!
+
+## Contributing
+
+The best way to contribute is to fork the [CodePen demo](http://codepen.io/sunnysingh/pen/OPxbgq) and test any changes that you want to make.
+
+The CSS is coded in [Less](http://lesscss.org/), thus I prefer that any pull requests are already added to the Less source files. Also, keep the code clean and similar to how it currently is. I'm looking for volunteers that want to fork the project into [Sass](http://sass-lang.com/). Both versions will be maintained.
+
+If you don't want to bother with Git or Less, just [send me](https://sunnyis.me/contact/) your forked pen or hosted code/demo.
 
 ## Issues
 
