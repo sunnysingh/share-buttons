@@ -66,9 +66,10 @@
   height: 24px;
   margin: 0;
   padding: 2px 8px;
-  line-height: 18px;
-  letter-spacing: .02em;
-  font-size: 13px;
+  line-height: 1.53;
+  letter-spacing: .04em;
+  vertical-align: top;
+  font-size: 12px;
   font-weight: bold;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #111111;
@@ -82,23 +83,27 @@
 .share-btn:focus {
   background: #d3d3d3;
   border-color: #bababa;
+  text-decoration: none;
+  color: #111111;
 }
 .share-btn:active {
   background: #c7c7c7;
   border-color: #adadad;
+  text-decoration: none;
+  color: #111111;
 }
 .share-btn.share-btn-sm {
   height: 20px;
   font-size: 10px;
   padding: 0 8px;
-  line-height: 18px;
+  line-height: 1.6;
 }
 .share-btn.share-btn-lg {
   height: 28px;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.4;
 }
-.share-btn.share-btn-more .share-btn-text-sr {
+.share-btn .share-btn-text-sr {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -244,14 +249,35 @@
 .share-btn.share-btn-inverse:focus {
   background: #121212;
   border-color: #000000;
+  color: #eeeeee;
 }
 .share-btn.share-btn-inverse:active {
   background: #050505;
   border-color: #000000;
+  color: #eeeeee;
 }
+.share-btn.share-btn-twitter .share-btn-icon,
+.share-btn.share-btn-googleplus .share-btn-icon,
+.share-btn.share-btn-tumblr .share-btn-icon,
+.share-btn.share-btn-linkedin .share-btn-icon,
+.share-btn.share-btn-pinterest .share-btn-icon,
+.share-btn.share-btn-stumbleupon .share-btn-icon,
+.share-btn.share-btn-delicious .share-btn-icon,
 .share-btn.share-btn-more .share-btn-icon {
   position: relative;
   top: 1px;
+}
+@-moz-document url-prefix() {
+  .share-btn-twitter .share-btn-icon,
+  .share-btn-googleplus .share-btn-icon,
+  .share-btn-tumblr .share-btn-icon,
+  .share-btn-linkedin .share-btn-icon,
+  .share-btn-pinterest .share-btn-icon,
+  .share-btn-stumbleupon .share-btn-icon,
+  .share-btn-delicious .share-btn-icon,
+  .share-btn-more .share-btn-icon {
+    top: 0;
+  }
 }
 .share-btn.share-btn-more.share-btn-lg .share-btn-icon {
   top: 2px;
