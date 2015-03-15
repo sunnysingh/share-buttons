@@ -87,9 +87,11 @@ This way, the buttons stay accessible to screen reader users.
 
 ## Browser Support
 
-Tested on all modern browsers, including Internet Explorer 9+. There are a few display issues regarding `line-height` on mobile browsers.
+Tested on all modern browsers, including Internet Explorer 9+.
 
 ## Changelog
+
+[v1.0.1](https://github.com/sunnysingh/share-buttons/releases/tag/v1.0.1): Mar 15, 2015 - Mobile bug fixes and icon-only buttons in demo.
 
 [v1.0.0](https://github.com/sunnysingh/share-buttons/releases/tag/v1.0.0): Feb 18, 2015 - First version release!
 
