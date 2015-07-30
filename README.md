@@ -1,3 +1,9 @@
+# We moved.
+
+Share Buttons has been rebranded as socialshares and exists under [socialshares/buttons](https://github.com/socialshares/buttons).
+
+This repo and the `share-buttons` Bower package will remain up for reference, but will no longer receive updates.
+
 # Share Buttons
 
 Share Buttons is a project that aims to speed up the web by removing the need for Twitter's, Facebook's, or Google+'s external JavaScript that developers copy-and-paste into their web pages.
