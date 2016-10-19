@@ -16,7 +16,7 @@ You can view and interact with the [demo on CodePen](http://codepen.io/sunnysing
 
 ## Install
 
-Available through [Bower](http://bower.io/):
+Available through [Bower](http://bower.io/): 
 
 ```
 bower install share-buttons
